@@ -67,7 +67,7 @@
     volumes:
       - name: plugindir
         hostPath:
-          path: /usr/libexec/kubernetes/kubelet-plugins/volume/exec/
+          path: /etc/origin/kubelet-plugins/volume/exec/
       - name: config-volume
         configMap:
           name: ovirt
